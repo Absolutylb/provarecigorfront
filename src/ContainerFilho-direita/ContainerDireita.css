@@ -1,0 +1,53 @@
+#testeGratis {
+  color: white;
+  font-size: 16px;
+  width: 500px;
+  height: 50px;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.containerDireita {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+  color: hsl(0, 100%, 74%);
+  font-size: 12px;
+  height: 30px;
+  width: 335px;
+}
+
+#termosdeServico {
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
+  height: 30px;
+  width: 335px;
+}
+@media (max-width: 1000px) {
+  .containerDireita {
+    width: 100%;
+  }
+}
